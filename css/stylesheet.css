@@ -1,0 +1,255 @@
+body {
+    display: grid;
+    grid-template-columns: 350px auto;
+    grid-template-rows: 150px auto auto auto 55px;
+    grid-gap: 15px;
+    background-color: #7C9082;
+}
+
+* {
+    font-family: "sans-serif", "Microsoft YaHei";
+}
+
+h1 {
+
+    font-size: 60pt;
+    color: #3E4C5E;
+}
+
+nav .home h2 {
+
+    font-size: 25pt;
+    color: #3E4C5E;
+    text-decoration: underline #3E4C5E;
+}
+
+h2.news {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 15pt;
+    color: #3E4C5E;
+}
+
+header {
+    padding: 0px 20px 20px 40px;
+    background: #7C9082;
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+
+nav {
+    padding: 10px 10px 10px 10px;
+    background-color: #C18C71;
+    border: solid #acacac;
+    grid-column: 1;
+    grid-row: 2;
+    line-height: 20px;
+    margin-left: 15px;
+}
+
+
+nav a {
+    font-size: 18pt;
+    line-height: 25px;
+    text-decoration: none;
+    color: #3E4C5E;
+}
+
+nav a:hover {
+    font-weight: bolder;
+}
+
+.active, #active {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+aside {
+    margin-left: 15px;
+    background-color: #C18C71;
+    border: solid #acacac;
+    grid-column: 1;
+    grid-row: 3;
+    padding: 0px 10px 10px 10px;
+    color: #3E4C5E;
+    margin-top: 15px;
+}
+
+
+main {
+    padding: 20px 20px 20px 20px;
+    background-color: #F3ECBA;
+    border: solid #acacac;
+    grid-column: 2;
+    grid-row: 2 /span 3;
+}
+
+main .form {
+    color: #3E4C5E;
+    display: grid;
+    grid-template-columns: 180px 300px;
+    grid-gap: 10px;
+
+}
+
+#fieldset {
+    display: grid;
+    grid-template-columns: 180px 300px;
+    grid-gap: 10px;
+
+}
+
+
+.textMain {
+    color: #3E4C5E;
+}
+
+main .button {
+    height: 30px;
+    color: #3E4C5E;
+    background-color: #acc4b3;
+
+}
+
+main .meineKontaktDaten {
+    padding-right: 20px;
+    float: right;
+    color: #3E4C5E;
+
+}
+
+
+.impressum {
+    font-size: 20px;
+    color: #3E4C5E;
+
+}
+
+.impressum a {
+    text-decoration: #3E4C5E underline;
+}
+
+
+main img {
+    position: relative;
+    width: 600px;
+    align-self: center;
+    float: right;
+    border: solid #acacac;
+    margin-left: 10px;
+}
+
+.table {
+    margin: 20px 0px 0px 20px;
+    float: right;
+    border-collapse: collapse;
+    width: 50%;
+    color: #3E4C5E;
+    font-family: "sans-serif", "Microsoft YaHei";
+
+}
+
+td, th {
+    border: 1px solid #3E4C5E;
+    text-align: left;
+    padding: 8px;
+}
+
+.anzahlTiere {
+    font-size: 25px;
+    color: #3E4C5E;
+}
+
+
+#PandasGründe {
+
+    color: #3E4C5E;
+    font-size: 20px;
+    font-family: "sans-serif", "Microsoft YaHei";
+
+}
+
+.Kontakt {
+    text-decoration: #90634a underline;
+    color: #90634a;
+    font-size: 16px;
+    float: right;
+    padding-right: 20px;
+}
+
+
+.Impressum {
+    text-decoration: #90634a underline;
+    color: #90634a;
+    font-size: 16px;
+    float: right;
+    padding-right: 30px;
+}
+
+
+footer img {
+    transform: rotate(30deg);
+    position: relative;
+    left: -845px;
+    bottom: 230px;
+    width: 170px;
+}
+
+main .marge {
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #bdd7ee;
+}
+
+.button:hover {
+    background-color: #7C9082;
+}
+
+fieldset {
+    min-width: 300px;
+    padding: 10px;
+    border: solid #acacac;
+}
+
+.quelle {
+    text-decoration: none;
+    color: #90634a;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #C18C71;
+    border: solid #acacac;
+    grid-column: 1 / span 2;
+    grid-row: 5;
+    text-align: left;
+    padding-left: 10px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+
+.spende {
+    margin-left: -20px;
+    text-decoration: none;
+    color: #3E4C5E;
+}
+
+footer p {
+    color: #90634a;
+    font-size: 16px;
+}
+
+footer a:hover {
+    color: #543a2b;
+}
+
+
+@font-face {
+    font-family: "modern Love";
+}
